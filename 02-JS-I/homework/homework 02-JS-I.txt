@@ -1,0 +1,13 @@
+Homework 02-JS-I
+
+CONCEPTOS:
+
+Variables: Son espacios o lugares donde se van a almacenar valores (numeros, letras, caracteres, o valores como verdadero o falso).
+
+Strings: Es un conjunto de caracteres y en una linea de codigo se distingue porque esta entre "" o ''.
+
+Funciones(argumentos, return): Es un conjunto de instrucciones que realiza una tarea o calcula un valor en base a los argumentos que recibe, devolviendo este resultado con la palabra reservada return.
+
+if: Es una estructura de control utilizada para tomar decisiones, si la condicion es verdadera ejecuta las instrucciones que le pedimos.
+
+Valores booleanos (true, false): Es un tipo de dato que puede tomar dos valores verdadero (true) o falso (false).
