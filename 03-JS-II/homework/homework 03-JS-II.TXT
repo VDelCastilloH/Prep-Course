@@ -1,0 +1,11 @@
+Homework 02-JS-I
+
+CONCEPTOS:
+
+for: Es un tipo de sentencia repetitiva que puede realizar una o mas instrucciones, generalmente cuando sabemos el numero de veces que queremos que se ejecute.
+
+&&: Operador logico Y, que evalua dos expresiones y devolvera verdadero si ambas expresiones son verdaderas; si uno o las dos expresiones son falso entonces devolvera falso.
+
+||: Operador logico O, que evalua si alguna expresion es verdadera entonces devolvera verdadero; solo devolvera falso si todas las expresiones evaluadas son falsas.
+
+!: Operador logico No, convierte un valor verdadero a falso o un valor falso a verdadero.
