@@ -59,14 +59,12 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  let concatena;
+  let concatena = '';
   for (let i = 0; i < palabras.length; i++) {
-    if(i===0){
-      concatena = palabras[i] + ' ';
-    } else if(i === palabras.length - 1){
-      concatena = concatena + palabras[i];
-    } else {
-      concatena = concatena + palabras[i] + ' ';
+    if (i===0){
+      concatena = palabras[i];
+    }else {
+      concatena = concatena + ' ' + palabras[i];
     }
   }
   return concatena;

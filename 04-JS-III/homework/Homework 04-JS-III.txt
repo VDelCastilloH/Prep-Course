@@ -1,3 +1,5 @@
 Homework 04-JS-III
 
 CONCEPTOS:
+
+Arrays: Un Arreglo es una colección o agrupación de elementos en una misma variable, son objetos similares a una lista.
