@@ -1,0 +1,13 @@
+Homework 05-JS-IV
+
+CONCEPTOS:
+
+Objetos: Un objeto en JavaScript es un contenedor de propiedades, donde una propiedad tiene un nombre y un valor. Ejemplo Objeto Persona. 
+
+Propiedades: Son las caracteristicas que posee el objeto Ejemplo Edad = 20.
+
+Metodos: Los métodos son funciones que pertenecen a un objeto y nos permiten modificar o manipular sus elementos.
+
+Bucle For...in: Es una sentencia de programacion que nos permite recorrer todas las propiedades de un objeto.
+
+Notación de puntos vs notación de corchetes: La notacion de puntos nos permite acceder a las propiedades del objeto mediante la colocacion de un "." Ejemplo "Objeto.propiedad" Persona.Edad, este tipo de accesibilidad es mas rapida al momento de programar frente a la de Corchetes debido a que la estructura con la que cuenta esta ultima que seria: Persona['Edad'], lo cual hace mas tedioso la escritura de lineas de codigo.
