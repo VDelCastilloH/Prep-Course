@@ -65,10 +65,10 @@ function tieneEmail (usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( usuario.email !== null ) {
-    return true;
-  } else {
+  if ( usuario.email == undefined ) {
     return false;
+  } else {
+    return true;
   }
 }
 
@@ -77,10 +77,10 @@ function tienePropiedad (objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (objeto[propiedad] !== null) {
-    return true;
-  } else {
+  if (objeto[propiedad] == undefined) {
     return false;
+  } else {
+    return true;
   }
 }
 
@@ -100,7 +100,7 @@ function actualizarPassword (usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevaPassword"
   // Devuelve el objeto
   // Tu código:
-  usuario.contraseña = nuevaPassword;
+  usuario.password = nuevaPassword;
   return usuario;
 }
 
@@ -133,7 +133,7 @@ function sumarLikesDeUsuario (usuario) {
   // Devuelve la suma
   // Tu código:
   var sum = 0;
-  for (let i = 0; i < usuario.posts.length 0; i++) {
+  for (let i = 0; i < usuario.posts.length; i++) {
     sum = sum + usuario.posts[i].likes;
   }
   return sum;
