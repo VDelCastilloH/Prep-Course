@@ -1,0 +1,7 @@
+Homework 06-JS-V
+
+CONCEPTOS:
+
+Prototype: JavaScript tiene un diseño basado en prototipos, quiere decir que todos los objetos de JS tienen una referencia a otro objeto y que es llamado su prototipo; lo que genera que pueda utilizar funciones no definidas en el objeto mismo, pero si en su prototipo y esto gracias a al Prototype Chain. El prototipo maximo en JS es Object y este no tiene un prototipo.
+
+Constructors (de Clases): Un constructor de Clase es una plantilla para la creacion de objetos segun un modelo predefinido (Fabrica de Obejtos).
